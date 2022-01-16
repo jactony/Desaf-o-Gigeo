@@ -1,0 +1,24 @@
+@mixin relative-converter($property, $unit, $target, $context) {
+    $result: ($target / $context);
+    #{$property}: #{$result + $unit};
+}
+
+/*Aquí van los breakspoints */
+
+@media (max-width: 768px) {
+    .franja__img img {
+      width: 80%;
+      border-radius: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .franja__img img {
+      width: 60%;
+      border-radius: 50%;
+    }
+  
+    .franja__nombre h4 {
+      @include relative-converter(font-size, rem, $xx-large, 16);
+    }
+  }

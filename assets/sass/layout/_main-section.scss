@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    max-width: 98%;
+    margin: auto;
+}
+
+/*tarjetas */
+.container2{
+  width: 100%;
+  margin-top: 2em;
+  padding: 0 1em;
+  }
+.container2 h1{
+      font-size: 2em;
+  }
+
+.card img{
+    max-width: 100%;
+}
+.card-img-top{
+    max-width: 248px;
+  }
+
+.card-body h4{
+  font-weight: $manjari-bold;
+  font-size: 18px;   
+}
+
+.card-body h5{
+  font-size: 12px;
+  font-weight: 500;
+  }
+
+.card{
+  text-align: left; 
+}
+  
+.col-12, .col-md-4{
+  padding: 10px;
+}
+
+  
+
+  

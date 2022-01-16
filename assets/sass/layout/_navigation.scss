@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+ 
+  width: 100%;
+  height: auto;
+}
+
+.nav__navigation {
+  display: flex;
+  justify-content:space-between ;
+  width: 100%;
+}
+
+.nav__logo {
+  width: 20%;
+  height: 60px;
+  margin-bottom: 2%;
+}
+.nav__logo h4 {
+  font-family: $poppins;
+  font-size: 2em;
+  color: #000;
+  margin-left: 1em;
+}
+.nav__iconos {
+  width: 35%;
+}
+
+.nav__ul-ico li {
+  display: inline-block;
+  
+}
+.nav__ul-ico li a {
+  margin-top: 1em;
+  padding-right: 1em;
+  display: inline-block;
+  font-size: 1.2em;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav__logo sup {
+  font-size: 15px;
+}
+
+
